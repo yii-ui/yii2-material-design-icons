@@ -16,25 +16,23 @@ Installation
 The preferred way to install this extension is through [composer](https://getcomposer.org/download/).
 
 Either run
-
 ```
 php composer.phar require yii-ui/yii2-material-design-icons
 ```
-
 or add
-
 ```
 "yii-ui/yii2-material-design-icons": "~1.0.0"
 ```
-
 to the require section of your `composer.json` file.
 
 Usage
 -----
+
 in your layout file (ex. views/layouts/main.php):
 ```php
 \yiiui\yii2materialdesignicons\MaterialDesignIconsAsset::register($this);
 ```
+
 or as dependency in your app asset bundle:
 ```php
 namespace app\assets;
@@ -58,7 +56,6 @@ class AppAsset extends AssetBundle
     ];
 }
 ```
-
 
 More [Examples](https://www.yii-ui.com/yii2-material-design-icons) will be added soon at https://www.yii-ui.com/yii2-material-design-icons.
 For full list of icons see Material Design Icons [Documentation](https://materialdesignicons.com/).
