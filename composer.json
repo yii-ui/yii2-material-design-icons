@@ -1,0 +1,38 @@
+{
+    "name": "yii-ui/yii2-material-design-icons",
+    "description": "Yii2 Asset for Material Design Icons.",
+    "keywords": [
+        "yii2",
+        "yii-ui",
+        "material",
+        "design",
+        "icons",
+        "yii2-asset"
+    ],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "homepage": "https://www.yii-ui.com/yii2-material-design-icons",
+    "support": {
+        "issues": "https://github.com/yii-ui/yii2-material-design-icons/issues",
+        "source": "https://github.com/yii-ui/yii2-material-design-icons"
+    },
+    "authors": [
+        {
+            "name": "Christoph Möke",
+            "email": "christophmoeke@gmail.com",
+            "role": "Project Leader"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.0.0",
+        "yiisoft/yii2": "~2.0.15",
+        "bower-asset/mdi": "~2.4.85"
+    },
+    "autoload": {
+        "psr-4": {
+            "yiiui\\yii2materialdesignicons\\": "src"
+        }
+    }
+}
