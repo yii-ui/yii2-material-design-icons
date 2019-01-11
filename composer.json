@@ -28,7 +28,7 @@
     "require": {
         "php": ">=7.0.0",
         "yiisoft/yii2": "~2.0.15",
-        "bower-asset/mdi": "~3.0.39"
+        "bower-asset/mdi": "~3.3.92"
     },
     "repositories": [
         {
