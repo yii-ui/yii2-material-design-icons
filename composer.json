@@ -26,9 +26,9 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": ">=7.0.0",
-        "yiisoft/yii2": "~2.0.15",
-        "bower-asset/mdi": "~3.3.92"
+        "php": ">=7.1.0",
+        "yiisoft/yii2": "^2.0.19",
+        "bower-asset/mdi": "^3.6.95"
     },
     "repositories": [
         {
