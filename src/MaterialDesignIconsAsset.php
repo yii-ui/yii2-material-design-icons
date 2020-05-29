@@ -13,7 +13,7 @@ class MaterialDesignIconsAsset extends AssetBundle
     /**
      * @var string
      */
-    public $sourcePath = '@bower/mdi';
+    public $sourcePath = '@npm/mdi--font';
 
     /**
      * @var array
